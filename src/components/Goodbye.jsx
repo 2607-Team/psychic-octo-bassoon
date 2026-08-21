@@ -8,4 +8,4 @@ const Goodbye = () => {
   )
 }
 
-export default Goodbye
+export default Goodbye;
