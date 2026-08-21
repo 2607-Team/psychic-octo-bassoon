@@ -1,14 +1,13 @@
-import { Contact } from "./components/Contact"
-import Welcome from "./components/Welcome"
-import { Home } from "./pages/Home"
+import { Contact } from "./components/Contact";
+import Welcome from "./components/Welcome";
 
 function App() {
-
 
   return (
     <>
       <Welcome />
       <Contact/>
+      <Test/>
     </>
   )
 }
