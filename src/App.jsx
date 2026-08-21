@@ -1,4 +1,5 @@
 import Welcome from "./components/Welcome"
+import { Home } from "./pages/Home"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Welcome />
       <Test/>
+
     </>
   )
 }
