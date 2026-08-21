@@ -1,3 +1,5 @@
+
+import DisplayHello from './Tony'
 import Welcome from "./components/Welcome"
 import { Home } from "./pages/Home"
 
