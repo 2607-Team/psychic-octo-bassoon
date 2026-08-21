@@ -1,12 +1,17 @@
-import Goodbye from "./components/Goodbye"
+import GoodBye from './components/Welcome';
+import Welcome from './component/Welcome'
+import Greeting from './component/Greeting'
 
-function App() {
 
-
+function App () {
   return (
-    <>
-      <Goodbye />
-    </>
+
+   <>
+   <Welcome />
+   <Greeting />
+   <GoodBye />
+   </>
+
   )
 }
 
