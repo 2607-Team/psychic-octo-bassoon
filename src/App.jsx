@@ -1,14 +1,17 @@
-import { useState } from 'react';
-import './App.css';
-import Goodbye from './components/Goodbye';
+import GoodBye from './components/Welcome';
+import Welcome from './component/Welcome'
+import Greeting from './component/Greeting'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function App () {
   return (
-    <>
-      <Goodbye/>
-    </>
+
+   <>
+   <Welcome />
+   <Greeting />
+   <GoodBye />
+   </>
+
   )
 }
 
