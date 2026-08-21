@@ -1,11 +1,18 @@
 import GoodBye from './components/Welcome';
+import Welcome from './component/Welcome'
+import Greeting from './component/Greeting'
 
-function App() {
+
+function App () {
   return (
-    <div>
-      <GoodBye />
-    </div>
-  );
+
+   <>
+   <Welcome />
+   <Greeting />
+   <GoodBye />
+   </>
+
+  )
 }
 
-export default App;
+export default App
