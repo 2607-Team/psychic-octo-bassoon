@@ -1,14 +1,16 @@
-import { Contact } from "./components/Contact";
-import Welcome from "./components/Welcome";
 
-function App() {
+import Welcome from './component/Welcome'
+import Greeting from './component/Greeting'
 
+
+function App () {
   return (
-    <>
-      <Welcome />
-      <Contact/>
-      <Test/>
-    </>
+
+   <>
+   <Welcome />
+   <Greeting />
+   </>
+
   )
 }
 
