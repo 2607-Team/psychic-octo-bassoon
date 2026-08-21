@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Welcome from "./components/Welcome"
+import { Home } from "./pages/Home"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +12,9 @@ function App() {
   return (
     <>
     <h1>Hello world</h1>
+      <Welcome />
+      <Test/>
+
     </>
   )
 }
