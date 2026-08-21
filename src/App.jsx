@@ -1,20 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-import Welcome from "./components/Welcome"
-import { Home } from "./pages/Home"
+import { Contact } from "./components/Contact";
+import Welcome from "./components/Welcome";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>Hello world</h1>
       <Welcome />
+      <Contact/>
       <Test/>
-
     </>
   )
 }
