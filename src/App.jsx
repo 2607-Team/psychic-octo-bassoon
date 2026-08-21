@@ -1,8 +1,4 @@
-
-import DisplayHello from './Tony'
-import Welcome from "./components/Welcome"
-import { Home } from "./pages/Home"
-
+import GoodBye from './components/Welcome';
 import Welcome from './component/Welcome'
 import Greeting from './component/Greeting'
 
@@ -13,6 +9,7 @@ function App () {
    <>
    <Welcome />
    <Greeting />
+   <GoodBye />
    </>
 
   )
