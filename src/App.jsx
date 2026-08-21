@@ -1,11 +1,11 @@
-import Welcome from "./components/Welcome"
+import Goodbye from "./components/Goodbye"
 
 function App() {
 
 
   return (
     <>
-      <Welcome />
+      <Goodbye />
     </>
   )
 }
