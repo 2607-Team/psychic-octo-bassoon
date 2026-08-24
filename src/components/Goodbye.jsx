@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Goodbye = () => {
+const GoodBye = () => {
   return (
     <div>
-        Goodbye, Nice to meet you
+      <h1>Good Bye!</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Goodbye;
+export default GoodBye;

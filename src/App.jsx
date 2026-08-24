@@ -1,18 +1,16 @@
-import GoodBye from './components/Welcome';
-import Welcome from './component/Welcome'
-import Greeting from './component/Greeting'
+import React from 'react';
+import Contact from './pages/Contact'; 
 
-
-function App () {
+function App() {
   return (
-
-   <>
-   <Welcome />
-   <Greeting />
-   <GoodBye />
-   </>
-
-  )
+    <div>
+      <Contact />
+    </div>
+  );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> bba4874571114af1745ec4949fa673b1dd8b2536
